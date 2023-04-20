@@ -12,6 +12,7 @@ export const drawSqueleton = (poses) => {
     <Svg
       style={{
         position: 'absolute',
+        left: -50,
         zIndex: 30,
         transform: [{ scaleX: -1 }]
       }}>
